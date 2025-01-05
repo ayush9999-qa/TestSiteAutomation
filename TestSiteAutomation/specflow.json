@@ -1,0 +1,23 @@
+{
+  "specFlow": {
+    "bindingCulture": {
+      "language": "en-us"
+    },
+    "language": {
+      "feature": "en-us"
+    },
+    "unitTestProvider": {
+      "name": "nunit"
+    },
+    "plugins": [
+      {
+        "name": "SpecFlow.NUnit",
+        "type": "Runtime"
+      }
+    ],
+    "runtime": {
+      "stopAtFirstError": false,
+      "missingOrPendingStepsOutcome": "Inconclusive"
+    }
+  }
+}
