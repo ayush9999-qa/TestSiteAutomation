@@ -12,18 +12,20 @@ public sealed class TestHooks
 {
     private static IWebDriver _driver;
     public static HomePage HomePage { get; private set; }
+    
 
     [BeforeScenario]
     public void BeforeScenario()
     {
-        new DriverManager().SetUpDriver(new ChromeConfig());
-        _driver = new ChromeDriver();
-        HomePage = new HomePage(_driver);
+        // new DriverManager().SetUpDriver(new ChromeConfig());
+        // _driver = new ChromeDriver();
+        // HomePage = new HomePage(_driver);
+        // _driver.Manage().Window.Maximize();
     }
 
     [AfterScenario]
     public void AfterScenario()
     {
-        _driver.Quit();
+        // _driver.Quit();
     }
 }

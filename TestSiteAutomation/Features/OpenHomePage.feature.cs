@@ -31,7 +31,7 @@ namespace TestSiteAutomation.Features
         private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Open Website", "As a user\nI want to open the website\nSo that I can verify the homepage loads corr" +
                 "ectly", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags);
         
-#line 1 "OpenWebsite.feature"
+#line 1 "OpenHomePage.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
@@ -106,7 +106,7 @@ namespace TestSiteAutomation.Features
         await testRunner.WhenAsync("I navigate to the home page", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
 #line 9
-        await testRunner.ThenAsync("the page title should be \"Practice Test Automation WebSite\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+        await testRunner.ThenAsync("the \"HomePage\" title should be \"Practice Test Automation WebSite\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
             await this.ScenarioCleanupAsync();
